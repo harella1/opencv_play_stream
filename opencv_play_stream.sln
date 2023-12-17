@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_play_stream", "opencv_play_stream\opencv_play_stream.vcxproj", "{89BB2499-63B5-4A63-A143-D4969FCF5948}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "play-stream", "play-stream\play-stream.vcxitems", "{40C115E9-ABFB-4850-AAD4-77DA177F0024}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "play-stream.lnx", "play-stream.lnx\play-stream.lnx.vcxproj", "{9E1FAEB5-4CCA-4EB8-8836-3590F2BDA4A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89BB2499-63B5-4A63-A143-D4969FCF5948}.Debug|x64.ActiveCfg = Debug|x64
+		{89BB2499-63B5-4A63-A143-D4969FCF5948}.Debug|x64.Build.0 = Debug|x64
+		{89BB2499-63B5-4A63-A143-D4969FCF5948}.Release|x64.ActiveCfg = Release|x64
+		{89BB2499-63B5-4A63-A143-D4969FCF5948}.Release|x64.Build.0 = Release|x64
+		{9E1FAEB5-4CCA-4EB8-8836-3590F2BDA4A2}.Debug|x64.ActiveCfg = Debug|x64
+		{9E1FAEB5-4CCA-4EB8-8836-3590F2BDA4A2}.Debug|x64.Build.0 = Debug|x64
+		{9E1FAEB5-4CCA-4EB8-8836-3590F2BDA4A2}.Debug|x64.Deploy.0 = Debug|x64
+		{9E1FAEB5-4CCA-4EB8-8836-3590F2BDA4A2}.Release|x64.ActiveCfg = Release|x64
+		{9E1FAEB5-4CCA-4EB8-8836-3590F2BDA4A2}.Release|x64.Build.0 = Release|x64
+		{9E1FAEB5-4CCA-4EB8-8836-3590F2BDA4A2}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {038D49D2-A154-42CA-A377-F0260DFA70A4}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		play-stream\play-stream.vcxitems*{40c115e9-abfb-4850-aad4-77da177f0024}*SharedItemsImports = 9
+		play-stream\play-stream.vcxitems*{89bb2499-63b5-4a63-a143-d4969fcf5948}*SharedItemsImports = 4
+		play-stream\play-stream.vcxitems*{9e1faeb5-4cca-4eb8-8836-3590f2bda4a2}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
